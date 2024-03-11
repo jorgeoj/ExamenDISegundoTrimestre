@@ -15,19 +15,19 @@
 <?import javafx.scene.layout.VBox?>
 <?import javafx.scene.text.Font?>
 
-<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="800.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.examendisegundotrimestre.controllers.MainViewController">
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="800.0" style="-fx-background-color: #1E92EB;" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.examendisegundotrimestre.controllers.MainViewController">
   <top>
     <VBox alignment="CENTER" BorderPane.alignment="CENTER">
       <BorderPane.margin>
         <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
       </BorderPane.margin>
       <children>
-        <Label text="Calculadora metabolismo basal" textFill="#304fcc">
+        <Label text="Calculadora metabolismo basal" textFill="#1f3796">
           <font>
             <Font name="System Bold Italic" size="30.0" />
           </font>
         </Label>
-        <Label text="Introdzuca sus datos para calcular su metabolismo basal" textFill="#304fcc">
+        <Label text="Introdzuca sus datos para calcular su metabolismo basal" textFill="#183194">
           <font>
             <Font name="System Italic" size="14.0" />
           </font>
@@ -36,12 +36,12 @@
     </VBox>
   </top>
   <center>
-    <VBox alignment="CENTER" BorderPane.alignment="CENTER">
+    <VBox alignment="CENTER" style="-fx-background-color: #1ED2EA;" BorderPane.alignment="CENTER">
       <children>
         <GridPane maxWidth="600.0" prefHeight="334.0" prefWidth="500.0">
           <columnConstraints>
-            <ColumnConstraints halignment="LEFT" hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
-            <ColumnConstraints halignment="LEFT" hgrow="ALWAYS" minWidth="10.0" prefWidth="100.0" />
+            <ColumnConstraints halignment="LEFT" hgrow="SOMETIMES" maxWidth="116.79998779296875" minWidth="10.0" prefWidth="116.79998779296875" />
+            <ColumnConstraints halignment="LEFT" hgrow="ALWAYS" maxWidth="455.20001220703125" minWidth="10.0" prefWidth="443.20001220703125" />
           </columnConstraints>
           <rowConstraints>
             <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
@@ -53,13 +53,34 @@
             <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
           </rowConstraints>
           <children>
-            <Label text="Nombre:" textFill="#304fcc" />
-            <Label text="Sexo:" textFill="#304fcc" GridPane.rowIndex="1" />
-            <Label text="Peso (Kg):" textFill="#304fcc" GridPane.rowIndex="2" />
-            <Label text="Edad:" textFill="#304fcc" GridPane.rowIndex="3" />
-            <Label text="Talla (cm):" textFill="#304fcc" GridPane.rowIndex="4" />
-            <Label text="Tipo de actividad:" textFill="#304fcc" GridPane.rowIndex="5" />
-            <Label text="Observaciones:" textFill="#304fcc" GridPane.rowIndex="6" />
+            <Label text="Nombre:" textFill="WHITE">
+                     <font>
+                        <Font name="System Bold" size="12.0" />
+                     </font></Label>
+            <Label text="Sexo:" textFill="WHITE" GridPane.rowIndex="1">
+                     <font>
+                        <Font name="System Bold" size="12.0" />
+                     </font></Label>
+            <Label text="Peso (Kg):" textFill="WHITE" GridPane.rowIndex="2">
+                     <font>
+                        <Font name="System Bold" size="12.0" />
+                     </font></Label>
+            <Label text="Edad:" textFill="WHITE" GridPane.rowIndex="3">
+                     <font>
+                        <Font name="System Bold" size="12.0" />
+                     </font></Label>
+            <Label text="Talla (cm):" textFill="WHITE" GridPane.rowIndex="4">
+                     <font>
+                        <Font name="System Bold" size="12.0" />
+                     </font></Label>
+            <Label text="Tipo de actividad:" textFill="WHITE" GridPane.rowIndex="5">
+                     <font>
+                        <Font name="System Bold" size="12.0" />
+                     </font></Label>
+            <Label text="Observaciones:" textFill="#fafafa" GridPane.rowIndex="6">
+                     <font>
+                        <Font name="System Bold" size="12.0" />
+                     </font></Label>
             <TextField fx:id="txtNombre" GridPane.columnIndex="1">
               <GridPane.margin>
                 <Insets right="50.0" />
@@ -114,12 +135,12 @@
         </GridPane>
         <HBox alignment="CENTER" spacing="50.0">
           <children>
-            <Button fx:id="btnGuardar" mnemonicParsing="false" onAction="#guardarInformacion" text="Guardar">
+            <Button fx:id="btnGuardar" mnemonicParsing="false" onAction="#guardarInformacion" style="-fx-background-color: #304fcc;" text="Guardar" textFill="WHITE">
               <tooltip>
                 <Tooltip text="Pulse aquí para mostrar los datos" />
               </tooltip>
             </Button>
-            <Button fx:id="btnInforme" mnemonicParsing="false" onAction="#descargarInforme" text="Descargar informe">
+            <Button fx:id="btnInforme" mnemonicParsing="false" onAction="#descargarInforme" style="-fx-background-color: #304fcc;" text="Descargar informe" textFill="WHITE">
               <tooltip>
                 <Tooltip text="Pulse aquí para descargar el informe de todos los clientes" />
               </tooltip>
@@ -130,10 +151,13 @@
       <padding>
         <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
       </padding>
+         <BorderPane.margin>
+            <Insets bottom="20.0" left="40.0" right="40.0" />
+         </BorderPane.margin>
     </VBox>
   </center>
   <bottom>
-    <Label fx:id="lblSolucion" text="Aquí aparecerán sus datos una vez los haya guardado" textFill="#304fcc" BorderPane.alignment="CENTER">
+    <Label fx:id="lblSolucion" text="Aquí aparecerán sus datos una vez los haya guardado" textFill="#1f3796" BorderPane.alignment="CENTER">
       <BorderPane.margin>
         <Insets bottom="40.0" />
       </BorderPane.margin>
@@ -143,3 +167,4 @@
     </Label>
   </bottom>
 </BorderPane>
+

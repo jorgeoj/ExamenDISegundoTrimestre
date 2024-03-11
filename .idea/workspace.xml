@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="14b9d128-08c7-48c6-ac49-d5d1788946ed" name="Changes" comment="Calculado el metabolismo completo">
-      <change afterPath="$PROJECT_DIR$/informe_clientes.jasper" afterDir="false" />
+    <list default="true" id="14b9d128-08c7-48c6-ac49-d5d1788946ed" name="Changes" comment="Añadido el reporte de jasper">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,6 +54,11 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\jorge\IdeaProjects\ExamenDISegundoTrimestre" />
+    </key>
+  </component>
   <component name="RunManager">
     <configuration name="Unnamed" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.example.examendisegundotrimestre.HelloApplication" />
@@ -71,7 +76,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1710156650818</updated>
-      <workItem from="1710156651852" duration="3692000" />
+      <workItem from="1710156651852" duration="4981000" />
     </task>
     <task id="LOCAL-00001" summary="primeros cambios">
       <option name="closed" value="true" />
@@ -97,7 +102,15 @@
       <option name="project" value="LOCAL" />
       <updated>1710159714402</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Añadido el reporte de jasper">
+      <option name="closed" value="true" />
+      <created>1710160875771</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1710160875771</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -107,6 +120,7 @@
     <MESSAGE value="primeros cambios" />
     <MESSAGE value="Primera parte de metabolismo calculado" />
     <MESSAGE value="Calculado el metabolismo completo" />
-    <option name="LAST_COMMIT_MESSAGE" value="Calculado el metabolismo completo" />
+    <MESSAGE value="Añadido el reporte de jasper" />
+    <option name="LAST_COMMIT_MESSAGE" value="Añadido el reporte de jasper" />
   </component>
 </project>
