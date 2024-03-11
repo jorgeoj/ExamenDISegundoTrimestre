@@ -40,8 +40,8 @@ public class MainViewController implements Initializable {
     @javafx.fxml.FXML
     private Button btnInforme;
     @javafx.fxml.FXML
-    private Label lblSolucion;
 
+    private Label lblSolucion;
 
     @Override
     public void initialize(URL url, ResourceBundle resourceBundle) {
@@ -68,14 +68,37 @@ public class MainViewController implements Initializable {
             Double pesoCliente = Double.parseDouble(txtPeso.getText());
             Double tallaCliente = Double.parseDouble(txtTalla.getText());
             Integer edadCliente = Integer.valueOf(txtEdad.getText());
-            Double metabolismoBasal;
+            String tipoActividad = chTipoActividad.getValue().toString();
+            Double metabolismoBasal; //GER
+            Double metatabolismoBasalEnergetico; //GET
 
             // Primer calculo segun el sexo
             if (sexoCliente == "Masculino") {
                 metabolismoBasal = 66.473 + 13.751 * pesoCliente + 5.0033 * tallaCliente - 6.755 * edadCliente;
+                if (tipoActividad == "Sedentario") {
+                    metatabolismoBasalEnergetico = metabolismoBasal * 1.3;
+                } else if (tipoActividad == "Moderado") {
+                    metatabolismoBasalEnergetico = metabolismoBasal * 1.6;
+                } else if (tipoActividad == "Activo") {
+                    metatabolismoBasalEnergetico = metabolismoBasal * 1.7;
+                } else {
+                    metatabolismoBasalEnergetico = metabolismoBasal * 2.1;
+                }
             } else {
                 metabolismoBasal = 655.0955 + 9.463 * pesoCliente + 1.8496 * tallaCliente - 4.6756 * edadCliente;
+
+                if (tipoActividad == "Sedentario") {
+                    metatabolismoBasalEnergetico = metabolismoBasal * 1.3;
+                } else if (tipoActividad == "Moderado") {
+                    metatabolismoBasalEnergetico = metabolismoBasal * 1.5;
+                } else if (tipoActividad == "Activo") {
+                    metatabolismoBasalEnergetico = metabolismoBasal * 1.6;
+                } else {
+                    metatabolismoBasalEnergetico = metabolismoBasal * 1.9;
+                }
             }
+
+            lblSolucion.setText("El cliente " + nombreCliente + " tiene un GER de " + metabolismoBasal + " y un GET de " + metatabolismoBasalEnergetico);
         }
     }
 

@@ -4,14 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="14b9d128-08c7-48c6-ac49-d5d1788946ed" name="Changes" comment="primeros cambios">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/examendisegundotrimestre/domain/InformacionCliente.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/examendisegundotrimestre/HelloApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/examendisegundotrimestre/HelloApplication.java" afterDir="false" />
+    <list default="true" id="14b9d128-08c7-48c6-ac49-d5d1788946ed" name="Changes" comment="Primera parte de metabolismo calculado">
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/example/examendisegundotrimestre/controllers/MainViewController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/examendisegundotrimestre/controllers/MainViewController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/module-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/module-info.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/hibernate.cfg.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/hibernate.cfg.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,6 +44,7 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
     "git-widget-placeholder": "master",
     "ignore.virus.scanning.warn.message": "true",
@@ -76,7 +73,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1710156650818</updated>
-      <workItem from="1710156651852" duration="1740000" />
+      <workItem from="1710156651852" duration="2859000" />
     </task>
     <task id="LOCAL-00001" summary="primeros cambios">
       <option name="closed" value="true" />
@@ -86,7 +83,15 @@
       <option name="project" value="LOCAL" />
       <updated>1710156970130</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Primera parte de metabolismo calculado">
+      <option name="closed" value="true" />
+      <created>1710159009064</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1710159009064</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -94,6 +99,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="primeros cambios" />
-    <option name="LAST_COMMIT_MESSAGE" value="primeros cambios" />
+    <MESSAGE value="Primera parte de metabolismo calculado" />
+    <option name="LAST_COMMIT_MESSAGE" value="Primera parte de metabolismo calculado" />
   </component>
 </project>
