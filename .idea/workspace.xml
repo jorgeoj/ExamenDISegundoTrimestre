@@ -4,10 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="14b9d128-08c7-48c6-ac49-d5d1788946ed" name="Changes" comment="Primera parte de metabolismo calculado">
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/examendisegundotrimestre/controllers/MainViewController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/examendisegundotrimestre/controllers/MainViewController.java" afterDir="false" />
+    <list default="true" id="14b9d128-08c7-48c6-ac49-d5d1788946ed" name="Changes" comment="Calculado el metabolismo completo">
+      <change afterPath="$PROJECT_DIR$/informe_clientes.jasper" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,7 +46,7 @@
     "WebServerToolWindowFactoryState": "false",
     "git-widget-placeholder": "master",
     "ignore.virus.scanning.warn.message": "true",
-    "last_opened_file_path": "C:/Users/jorge/IdeaProjects/PracticaObjectDBExamen",
+    "last_opened_file_path": "C:/Users/jorge/IdeaProjects/ExamenDISegundoTrimestre",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -73,7 +71,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1710156650818</updated>
-      <workItem from="1710156651852" duration="2859000" />
+      <workItem from="1710156651852" duration="3692000" />
     </task>
     <task id="LOCAL-00001" summary="primeros cambios">
       <option name="closed" value="true" />
@@ -91,7 +89,15 @@
       <option name="project" value="LOCAL" />
       <updated>1710159009064</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Calculado el metabolismo completo">
+      <option name="closed" value="true" />
+      <created>1710159714402</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1710159714402</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -100,6 +106,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="primeros cambios" />
     <MESSAGE value="Primera parte de metabolismo calculado" />
-    <option name="LAST_COMMIT_MESSAGE" value="Primera parte de metabolismo calculado" />
+    <MESSAGE value="Calculado el metabolismo completo" />
+    <option name="LAST_COMMIT_MESSAGE" value="Calculado el metabolismo completo" />
   </component>
 </project>

@@ -116,6 +116,4 @@ public class MainViewController implements Initializable {
         exp.setConfiguration(new SimplePdfExporterConfiguration());
         exp.exportReport();
     }
-
-
 }
