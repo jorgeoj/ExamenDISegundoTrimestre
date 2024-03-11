@@ -5,4 +5,6 @@ module com.example.examendisegundotrimestre {
 
     opens com.example.examendisegundotrimestre to javafx.fxml;
     exports com.example.examendisegundotrimestre;
+    exports com.example.examendisegundotrimestre.controllers;
+    opens com.example.examendisegundotrimestre.controllers to javafx.fxml;
 }

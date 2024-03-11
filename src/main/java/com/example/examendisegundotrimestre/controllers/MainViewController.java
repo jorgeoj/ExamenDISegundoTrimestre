@@ -1,7 +1,8 @@
-package com.example.examendisegundotrimestre;
+package com.example.examendisegundotrimestre.controllers;
 
-public class MainViewController
-{
+import javafx.scene.control.*;
+
+public class MainViewController {
     @javafx.fxml.FXML
     private TextField txtNombre;
     @javafx.fxml.FXML
